@@ -1,0 +1,16 @@
+.bg-theme-grad-esetech {
+    background-image: linear-gradient(155deg,#1c089b,#070c2e)!important
+}
+.btn-grad:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all .5s;
+    background-image: linear-gradient(90deg,#3de799 0,#023834)
+}
